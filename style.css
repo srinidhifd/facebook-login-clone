@@ -57,31 +57,42 @@
 .form-box {
     background-color: white;
     margin: 140px 0px 0px;
-    height: 350px;
     width: 396px;
     border-radius: 5px;
-    padding: 10px 0px 24px; 
+    padding: 10px 0px 24px;
 }
 
 .footer {
     height: 100%;
     width: 100%;
+    padding-top: 50px;
 }
 
 .footer a {
     text-decoration: none;
-    color: black;
+    color: #8A8D91;
     font-size: 12px;
     margin-left: 20px;
 }
 
-input {
-    margin-left: 20px;
-    margin-top: 20px;
-    height: 50px;
-    width: 350px;
-    border-radius: 5px;
-    border: 1px solid #EFF3F4;
+.input-fields {
+    font-size: 17px;
+    width: 364px;
+    display: inline-block;
+    padding: 6px 10px;
+    margin: 0 auto;
+}
+
+.inputs {
+    border-radius: 6px;
+    font-size: 17px;
+    padding: 24px 20px;
+    width: 370px;
+    border: 1px solid #DDDFE2;
+    color: #1D2129;
+    height: 22px;
+    line-height: 16px;
+    vertical-align: middle;
 }
 
 input:focus {
@@ -89,38 +100,52 @@ input:focus {
 }
 
 .button1 button {
-    background-color: #0666FE;
+    background-color: #0866ff;
+    border-radius: 6px;
+    font-size: 20px;
     color: white;
-    font-weight: 600;
-    font-size: 15px;
-    margin-left: 20px;
-    margin-top: 20px;
+    line-height: 40px;
+    padding: 0 16px;
     height: 50px;
-    width: 350px;
-    border-radius: 5px;
+    width: 370px;
+    font-weight: bold;
     border: 1px solid #EFF3F4;
+    margin-left: 10px;
 }
 
 .button2 button {
-    background-color: #35A420;
+    border: none;
+    background-color: #42b72a;
+    border-radius: 6px;
+    font-size: 17px;
+    line-height: 48px;
+    padding: 0px 16px;
     color: white;
-    font-weight: 600;
-    font-size: 15px;
+    font-weight: bold;
     margin-left: 90px;
-    margin-top: 20px;
     height: 50px;
     width: 200px;
-    padding: 10px;
-    border-radius: 5px;
-    border: 1px solid #EFF3F4;
 }
 
-.form-box a {
+.forgot-password a {
     text-decoration: none;
-    color: #1c1e21;
+    margin-top: 16px;
+    color: #0866ff;
     font-size: 15px;
-    margin-left: 130px;
-    margin-top: 20px;
+    font-weight: 500;
+}
+
+.bottom-line {
+    align-items: center;
+    border-bottom: 1px solid #dadde1;
+    display: flex;
+    margin: 20px 16px;
+    text-align: center;
+    font-size: 12px;
+}
+
+button {
+    cursor: pointer;
 }
 
 img {
@@ -128,6 +153,33 @@ img {
     width: 350px;
 }
 
+.tagline {
+    border-top: none;
+    color: #1c1e21;
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    padding-top: 0;
+    text-align: center;
+    margin-top: 28px;
+}
+
+.tagline a {
+    color: #1c1e21;
+    text-decoration: none;
+    font-family: SFProText-Semibold, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.tagline a:visited {
+    color: #1c1e21;
+}
+
+.tagline a:hover {
+    color: #1c1e21;
+    text-decoration: underline;
+}
 
 @media screen and (max-width:768px) {
     .container {
